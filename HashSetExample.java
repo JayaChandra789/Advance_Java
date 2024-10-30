@@ -10,12 +10,14 @@ class HashSetExamples
 		obj1.add(2);
 		obj1.add(1);
 		obj1.add(4);
+		obj1.add(4);
 		obj1.add(3);
 		System.out.println(obj1);
 	}
 	public void hashSetString()
 	{
 		HashSet<String> obj2 = new HashSet<>();
+		obj2.add("Jaya");
 		obj2.add("Jaya");
 		obj2.add("Apple");
 		obj2.add("Tommy");

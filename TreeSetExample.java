@@ -2,7 +2,7 @@ package javaAdvance;
 import java.util.*;
 
 class TreeSetExamples //having Qualities of Natural sorting for integer Ascending order or for char Alphabetical order
-{
+{//These are implemented from sorted Interface extended from Set Interface Extended from Collection Interface Extended from Iterable interface
 	public void treeSetInterface()
 	{
 		TreeSet<Integer> obj1 = new TreeSet<>();
